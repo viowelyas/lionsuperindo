@@ -1,7 +1,6 @@
 # lionsuperindo
 
 > Fullstack Developer Skill Test
-> Vioni Wita Elya
 
 ## How Run the Program
 ``` bash
