@@ -1,0 +1,166 @@
+.header{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+.container {
+    display: flex;
+    -webkit-display: box;
+    -moz-display: box;
+    -ms-display: flexbox;
+    -webkit-display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.box{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.bg-body{
+    background-image: url(../images/bg.png);
+}
+.logo{
+    margin: 0px 50px;
+}
+
+/* sort */
+.sort{
+    width: 70%; 
+    margin: 10px 25px;
+}
+.sort-text{
+    color: white; 
+    margin: 0px;
+}
+.sort-dropdown{
+    height: 50%; width: 100%;
+}
+
+/* card */
+.cards {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    overflow: hidden;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+}
+.card-price {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 0px 30px;
+    line-height: 30px;
+}
+.card-title {
+    font-size: 15px;
+    line-height: 20px;
+    color: #32325d;
+    margin-bottom: 2px;
+}
+.card-image{
+    text-align: center;
+    object-fit: cover;
+}
+
+/* button */
+.btn-15 {
+    background: #d7130a;
+    border: none;
+    z-index: 1;
+    height: 40px;
+    font-size: 20px;
+}
+.btn-15:hover {
+    color: #fff;
+}
+.btn-15:hover:after {
+    left: 0;
+    width: 100%;
+}
+.btn-15:active {
+    top: 20px;
+}
+
+/* cart */
+.cart-icon{
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(46deg) brightness(116%) contrast(112%);
+}
+.cart-link{
+    margin: 3% 50px; 
+    color: white;
+}
+.cart-text{ 
+    color: white;
+    font-size: 50px;
+}
+.cards-cart {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.price-cart{
+    margin: 0px;
+}
+.qty{
+    text-align: center; 
+    width: 60px; 
+    height: 50px;
+}
+.unset-btn{
+    all: unset;
+}
+
+/* margin and width */
+.w25{
+    width: 25%;
+}
+.w35{
+    width: 35%;
+}
+.w50{
+    width: 50%;
+}
+.w60{
+    width: 60%;
+}
+.h100{
+    height: 100%;
+}
+.m0{
+    margin: 0px;
+}
+.mr50{
+    margin-right: 50px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt45{
+    margin-top: 45px;
+}
+
+/* text align */
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
